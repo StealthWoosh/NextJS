@@ -2,12 +2,12 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  firstName: "Daffa",
+  lastName: "Abdullah",
+  name: `Muhammad Daffa Abdullah`,
+  role: "Website Developer | DJ Amateur",
+  avatar: "/images/dapaa.jpg",
+  email: "stealthdarurat@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -24,17 +24,17 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/StealthWoosh",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/muhammad-daffa-abdullah-4a5a26381/",
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@daffaaa_bd",
   },
   {
     name: "Email",
@@ -49,7 +49,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Membangun Masa Depan dari Bata ke Bata</>,
   featured: {
     display: true,
     title: (
@@ -65,14 +65,9 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Hi, I'm Daffa, a Website Engineering from Vocational School Eight Malang
+      , where I learn on how to
+      <br />  make and control website and apps.
     </>
   ),
 };
@@ -98,52 +93,40 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Muhammad Daffa Abdullah, atau biasa dipanggil Daffa
+        , adalah seorang Website Developer dan DJ amatir yang berbasis di
+        daerah Malang, Jawa Timur. Dan dia bersekolah di SMKN 8 Malang, dan
+        berada di kelas 11 RPL C.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Organization Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Oshivema",
+        timeframe: "2024 - Present",
+        role: "Sekbid 9",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Berhasil mengurus event besar dengan lebih dari 400 peserta.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Menguasai skill Humas
           </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Arundaya",
+        timeframe: "2024 - Present",
+        role: "Infocom / Humas",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Berhasil mengelola event besar diluar sekolah dengan peserta kurang lebih 400 orang.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Berhasil memenangkan lomba debat antar pangkalan se-malang raya dan mendapatkan juara 2.
           </>,
         ],
         images: [],
@@ -155,12 +138,8 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "SMKN 8 Malang",
+        description: <>Studying software engineering.</>,
       },
     ],
   },
@@ -224,6 +203,32 @@ const about: About = {
           },
         ],
       },  
+      {
+        title: "Virtual DJ",
+        description: (
+          <>Able to DJ with Virtual DJ App at the skill of amateur.</>
+        ),
+        tags: [
+          {
+            name: "Virtual DJ",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-03.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
     ],
   },
 };
